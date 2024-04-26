@@ -1,0 +1,28 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#color-box{
+    width: 200px;
+    aspect-ratio: 1;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+button{
+    padding: 10px;
+}
